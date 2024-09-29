@@ -1,0 +1,70 @@
+body{
+    background-color: lightskyblue;
+    border: 10px double blue;
+    margin-right: 50px;
+}
+h1{
+    background-color: blanchedalmond;
+    color: crimson;
+    border: 5px solid crimson;
+    font-size: 3rem;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+    text-shadow: 10px 10px 10px black;
+    font-family: serif;
+}
+h1::first-letter{
+    color: blue;
+    font-size: 3.5rem;
+}
+img{
+    height: 300px;
+    width: 400px;
+}
+.Lamborghini{
+    background-color:lightgreen;
+    width: 400px;
+    height:550px;
+    display: inline-block;
+    border: 10px outset darkgreen;
+    padding: 5px;
+    margin: 10px;
+    background-image: url("./images/lamborghini-removebg-preview\ \(2\).png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.Audi{
+background-image: url("./images/audilogo-removebg-preview.png");
+background-size: 110px;
+}
+.BMW{
+    background-image: url("./images/bmw_logo-removebg-preview.png");
+    background-size: 100px;
+
+}
+.Ferrari{
+    background-image: url("./images/ferari_logo-removebg-preview.png");
+    background-size: 50px;
+
+}
+h2{
+    font-family: fantasy;
+    font-size: 2rem;
+}
+.lamborghinides{
+    font-family: cursive;
+    font-size: 1.3rem;
+}
+.audides{
+    font-family: monospace;
+    font-size: 1.3rem;
+}
+.ferrarides{
+    font-family: serif;
+    font-size: 1.3rem;
+}
+.BMWdes{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
